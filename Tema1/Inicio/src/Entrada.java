@@ -15,10 +15,15 @@ public class Entrada {
     public static void main(String[] args) {
 
         System.out.println("Mi primer programa");
+        //VARIABLES:
         // variable sirve para guardar un dato y utlizarlo -> tipo, vombre de variable y valor
         // segun tel tipo de dato que guardo: palabras/numeros/ boolean
         // segun el origen del dato que tengo guardado: primitivos / complejos
+        // Segun su posibilidad de cambiar el valor: mutables/no mutable(constante)
+        //Segun su scope- de clase o metodo
 
+        final String DNI = "123A";
+        System.out.println(DNI);
         String nombre = "Abraham";
         String apellidos = "Socorro";
         String apellidos1 = "Liria";
@@ -27,13 +32,16 @@ public class Entrada {
         double altura = 1.80;
         float alturafloat = 1.80f;
         boolean acierto = false;
+        Object cosa= 1;
 
 
-
+        //byte, short, long guardar numeros
         //%s -> palabra
         // %d -> numero sin decimales
         // %f -> numero con decimales
         System.out.printf("Me llamo %s con apellidos %s %s y tengo %d años", nombre, apellidos, apellidos1, edad);
+
+        //clase padre de java que engloba todo
 
 
 
