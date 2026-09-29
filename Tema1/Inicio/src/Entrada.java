@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Entrada {
 
     /**
@@ -32,6 +34,7 @@ public class Entrada {
         double altura = 1.80;
         float alturafloat = 1.80f;
         boolean acierto = false;
+        //clase padre de java que engloba todo
         Object cosa= 1;
 
 
@@ -41,7 +44,12 @@ public class Entrada {
         // %f -> numero con decimales
         System.out.printf("Me llamo %s con apellidos %s %s y tengo %d años", nombre, apellidos, apellidos1, edad);
 
-        //clase padre de java que engloba todo
+        //Scanner permite realizar lecturas por teclado
+
+        Scanner lector = new Scanner(System.in);
+        System.out.println("Indicame tu nombre");
+
+        //Dependiendo del tipo de dato que quieras leer la variable lector tiene metodos para ello.
 
 
 
